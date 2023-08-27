@@ -4,6 +4,7 @@
  * @description Configuration for release versions in github.
  *
  * @see https://github.com/release-it/release-it/blob/main/docs/configuration.md
+ * @see https://github.com/release-it/release-it/blob/main/config/release-it.json
  */
 
 /* eslint-disable no-useless-escape */
@@ -22,11 +23,11 @@ const data = {
 	'hooks' : {
 		'before:init' : [ 
 			'git push', 
+			'pnpm lint-fix',
 		],
 		'after:bump' : [
 			'pnpm auto-changelog -p',
 			'pnpm readme',
-			'pnpm lint',
 			'pnpm check',
 		],
 		'after:git:release' : 'echo \'After git push, before github release\'',
@@ -37,10 +38,10 @@ const data = {
 		],
 	},
 	'github' : {
-		'publish' : false,
+		'release' : false,
 	},
 	'npm' : {
-		'release' : false,
+		'publish' : false,
 	},
 }
 

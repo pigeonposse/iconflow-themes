@@ -5,12 +5,12 @@
     },
     "hooks": {
         "before:init": [
-            "git push"
+            "git push",
+            "pnpm lint-fix"
         ],
         "after:bump": [
             "pnpm auto-changelog -p",
             "pnpm readme",
-            "pnpm lint",
             "pnpm check"
         ],
         "after:git:release": "echo 'After git push, before github release'",
@@ -21,9 +21,9 @@
         ]
     },
     "github": {
-        "publish": false
+        "release": false
     },
     "npm": {
-        "release": false
+        "publish": false
     }
 }
