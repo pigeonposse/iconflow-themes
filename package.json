@@ -15,7 +15,8 @@
 		"lint-check": "node .utils/lint.js --check",
 		"lint-fix": "node .utils/lint.js --fix",
 		"readme": "node .utils/readme.js",
-		"release": "node .utils/release.js"
+		"release": "node .utils/release.js",
+		"push": "node .utils/release.js --no-release"
 	},
 	"devDependencies": {
 		"@pigeon-posse/eslint-config": "^1.0.1",
