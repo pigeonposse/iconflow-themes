@@ -13,35 +13,43 @@ import path              from 'path'
 export const exec = async ( cmd ) => {
 
 	console.log( `🐢 CMD: ${cmd}` )
- 
-	await new Promise( ( resolve, reject ) => {
+	try {
 
-		const childProcess = spawn( cmd, {
-			shell : true,
-			stdio : 'inherit',
-		} )
+		await new Promise( ( resolve, reject ) => {
 
-		// Manejar eventos del proceso hijo
-		childProcess.on( 'close', ( code ) => {
+			const childProcess = spawn( cmd, {
+				shell : true,
+				stdio : 'inherit',
+			} )
 
-			if ( code === 0 ) {
+			// Manejar eventos del proceso hijo
+			childProcess.on( 'close', ( code ) => {
 
-				// El proceso hijo terminó con éxito
-				console.log( 'Successfull executed ✨' )
-				resolve( )
+				if ( code === 0 ) {
+
+					// El proceso hijo terminó con éxito
+					console.log( 'Successfull executed ✨' )
+					resolve( )
 				
-			} else {
+				} else {
 
-				// El proceso hijo falló
-				const error = `Command failed with code ${code}`
-				console.error( error )
-				reject( error )
+					// El proceso hijo falló
+					const error = new Error( `Command failed with code ${code}` )
+					console.error( error )
+					reject( error )
 			
-			}
+				}
 		
-		} )
+			} )
 	
-	} )
+		} )
+
+	} catch ( err ) {
+
+		// La promesa se rechazó, propagar el error
+		throw err
+
+	}
 
 }
 

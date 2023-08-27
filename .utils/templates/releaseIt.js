@@ -1,4 +1,3 @@
-/* eslint-disable no-useless-escape */
 /**
  * Release-it config builder.
  *
@@ -6,6 +5,8 @@
  *
  * @see https://github.com/release-it/release-it/blob/main/docs/configuration.md
  */
+
+/* eslint-disable no-useless-escape */
 
 import { pkg } from '../_core.js'
 
@@ -36,7 +37,7 @@ const data = {
 		],
 	},
 	'github' : {
-		'release' : false,
+		'publish' : false,
 	},
 	'npm' : {
 		'release' : false,

@@ -32,8 +32,8 @@
 ░░░██║░░░██║░░██║███████╗██║░╚═╝░██║███████╗
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝                                                                                 
                                                 
-VERSION: 	1.0.0 
-REPOSITORY: https://github.com/pigeonposse/iconflow
+VERSION: 	0.0.1 
+REPOSITORY: https://github.com/pigeonposse/iconflow-themes
 AUTHORS: 
 	- Angelo (https://github.com/angelespejo)
 	- Alejo (https://github.com/alejomalia)
@@ -42,10 +42,9 @@ DEVELOPED BY PIGEONPOSSE 🐦🌈
 
 -->
 <!-- PIGEONPOSSE END MARK -->
-
-# Iconflow - MacOs app to find and change mac icons in bulk or individually
-
 <!-- PIGEONPOSSE START HEADER -->
+# Free Macos icons for Iconflow app
+
 ![HEADER](docs/banner.png)
 
 [![Web](https://img.shields.io/badge/Web-grey?style=flat-square)](https://pigeonposse.com)
@@ -54,6 +53,7 @@ DEVELOPED BY PIGEONPOSSE 🐦🌈
 [![Donate](https://img.shields.io/badge/Donate-pink?style=flat-square)](https://pigeonposse.com/?popup=donate)
 
 [![LICENSE](https://img.shields.io/badge/License-grey?style=flat-square)](/LICENSE)
+[![Version](https://img.shields.io/github/package-json/v/pigeonposse/iconflow-themes?color=a1b858&label=GitHub%20Releases&style=flat-square)](https://github.com/pigeonposse/iconflow-themes/releases)
 <!-- PIGEONPOSSE END HEADER -->
 
 <!-- PIGEONPOSSE START INDEX -->
@@ -75,7 +75,7 @@ Download lots of icons for your mac apps. In this repository you can find the ic
 
 ## Download links 🖥️💫
 
-- [![Themes](https://img.shields.io/badge/Themes-grey?style=flat-square)](https://github.com/pigeonposse/iconflow/releases)
+- [![Themes](https://img.shields.io/badge/Themes-grey?style=flat-square)](https://github.com/pigeonposse/iconflow-themes/releases)
 - [![Iconflow app](https://img.shields.io/badge/Iconflow-app-grey?style=flat-square)](https://github.com/pigeonposse/iconflow/releases)
 <!-- PIGEONPOSSE END DESCRIPTION -->
 

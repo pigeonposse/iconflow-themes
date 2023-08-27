@@ -6,10 +6,12 @@
  * @see /templates/release.js
  */
 
-import inquirer                 from 'inquirer'
-import { releaseIt }            from './templates/releaseIt.js'
-import { exec, writeSync, pkg } from './_core.js'
-import { releaseFile }          from './templates/releaseFile.js'
+import inquirer                           from 'inquirer'
+import { releaseIt }                      from './templates/releaseIt.js'
+import { exec, writeSync, pkg, joinPath } from './_core.js'
+import { releaseFile }                    from './templates/releaseFile.js'
+
+const noRelease = process.argv.includes( '--no-release' )
 
 const release = async () => {
 
@@ -50,16 +52,28 @@ const release = async () => {
 		const cmd = {
 			gitAdd    : 'git add ' + answers.git_add,
 			gitCommit : 'git commit -m "' + answers.git_commit + '"',
-			releaseIt : 'pnpm release-it',
+			push      : 'git push -u origin main',
+			releaseIt : 'pnpm exec release-it -c ' + joinPath( pkg.dir, pkg.data.extra.paths.releaseIt ),
 		}
 
 		exec( cmd.gitAdd )
 		exec( cmd.gitCommit )
-		exec( cmd.releaseIt )
+		
+		if ( noRelease )
+			await exec( cmd.push )
+		else
+			await exec( cmd.releaseIt )
 	
 	}catch( e ){
 
+		console.group( 'Error' )
 		console.error( e )
+		console.groupEnd()
+		process.exit( 1 )
+	
+	}finally{
+
+		process.exit( 0 )
 	
 	}
 

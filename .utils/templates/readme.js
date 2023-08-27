@@ -40,15 +40,17 @@ _PigeonPosse_ is a ✨ **code development collective** ✨ focused on creating p
 | <img src="https://github.com/${collective.name}.png?size=72" /> | Collective | [@${collective.name}](https://github.com/${collective.name}) |
 `
 
-const header = `![HEADER](docs/banner.png)
+const header = `# Free Macos icons for ${app.name} app
+
+![HEADER](docs/banner.png)
 
 [![Web](https://img.shields.io/badge/Web-grey?style=flat-square)](${collective.web})
 [![About us](https://img.shields.io/badge/About%20us-grey?style=flat-square)](${collective.web}/?popup=about)
 [![Github](https://img.shields.io/badge/Github-grey?style=flat-square)](https://github.com/pigeonposse)
 [![Donate](https://img.shields.io/badge/Donate-pink?style=flat-square)](${fundingUrl})
 
-[![LICENSE](https://img.shields.io/badge/License-grey?style=flat-square)](/LICENSE)`
-// [![Version](https://img.shields.io/github/package-json/v/${collective.name.toLowerCase()}/${pkg.data.name.toLowerCase()}?color=a1b858&label=GitHub%20Releases&style=flat-square)](${pkg.data.repository.url}/releases)
+[![LICENSE](https://img.shields.io/badge/License-grey?style=flat-square)](/LICENSE)
+[![Version](https://img.shields.io/github/package-json/v/${collective.name.toLowerCase()}/${pkg.data.name.toLowerCase()}?color=a1b858&label=GitHub%20Releases&style=flat-square)](${pkg.data.repository.url}/releases)`
 
 const desc = `Download lots of icons for your mac apps. In this repository you can find the icon themes for the ${app.name} app, but they can also be downloaded independently.
 

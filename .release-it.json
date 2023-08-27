@@ -10,7 +10,8 @@
         "after:bump": [
             "pnpm auto-changelog -p",
             "pnpm readme",
-            "pnpm build"
+            "pnpm lint",
+            "pnpm check"
         ],
         "after:git:release": "echo 'After git push, before github release'",
         "after:release": [
@@ -20,7 +21,7 @@
         ]
     },
     "github": {
-        "release": false
+        "publish": false
     },
     "npm": {
         "release": false
