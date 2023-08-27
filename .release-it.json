@@ -1,0 +1,28 @@
+{
+    "git": {
+        "requireBranch": "main",
+        "commitMessage": "Release v${version}"
+    },
+    "hooks": {
+        "before:init": [
+            "git push"
+        ],
+        "after:bump": [
+            "pnpm auto-changelog -p",
+            "pnpm readme",
+            "pnpm build"
+        ],
+        "after:git:release": "echo 'After git push, before github release'",
+        "after:release": [
+            "gh repo edit https://github.com/pigeonposse/iconflow-themes -d \"🖥✨ List of mac icons to change your mac by themes and in batch. This can be possible thanks Iconflow 🐦🌈\"",
+            "gh repo edit https://github.com/pigeonposse/iconflow-themes --add-topic macos-icons,macos-icons-themes,macos-universal,api,icons,icns,png,iconflow",
+            "echo 'Github action is now releasing: iconflow-themes v${version} to https://github.com/pigeonposse/iconflow-themes.\n Check if all is ok 🌈🤖\n https://github.com/pigeonposse/iconflow-themes/actions'"
+        ]
+    },
+    "github": {
+        "release": false
+    },
+    "npm": {
+        "release": false
+    }
+}

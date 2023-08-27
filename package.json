@@ -1,0 +1,97 @@
+{
+	"name": "iconflow-themes",
+	"version": "0.0.1",
+	"description": "🖥✨ List of mac icons to change your mac by themes and in batch. This can be possible thanks Iconflow 🐦🌈",
+	"type": "module",
+	"engines": {
+		"node": ">=18.0.0",
+		"pnpm": ">=8"
+	},
+	"packageManager": "pnpm@8.6.10",
+	"scripts": {
+		"check": "node src/main.js --check",
+		"build": "node src/main.js --build",
+		"lint": "node .utils/lint.js",
+		"lint-check": "node .utils/lint.js --check",
+		"lint-fix": "node .utils/lint.js --fix",
+		"readme": "node .utils/readme.js",
+		"release": "node .utils/release.js"
+	},
+	"devDependencies": {
+		"@pigeon-posse/eslint-config": "^1.0.1",
+		"@release-it/bumper": "^5.1.0",
+		"@typescript-eslint/eslint-plugin": "^6.4.1",
+		"@typescript-eslint/parser": "^6.4.1",
+		"archiver": "^6.0.0",
+		"auto-changelog": "^2.4.0",
+		"eslint": "^8.48.0",
+		"eslint-plugin-align-assignments": "^1.1.2",
+		"eslint-plugin-align-import": "^1.0.0",
+		"eslint-plugin-html": "^7.1.0",
+		"eslint-plugin-import": "^2.28.1",
+		"eslint-plugin-jsdoc": "^39.9.1",
+		"eslint-plugin-json": "^3.1.0",
+		"eslint-plugin-promise": "^6.1.1",
+		"inquirer": "^9.2.10",
+		"release-it": "^16.1.5"
+	},
+	"keywords": [
+		"macos-icons",
+		"macos-icons-themes",
+		"macos-universal",
+		"api",
+		"icons",
+		"icns",
+		"png",
+		"iconflow"
+	],
+	"extra": {
+		"collective": {
+			"name": "PigeonPosse",
+			"gh": "https://github.com/pigeonposse",
+			"about": "https://pigeonposse.com?popup=about",
+			"url": "https://pigeonposse.com",
+			"web": "https://pigeonposse.com",
+			"email": "dev@pigeonposse.com",
+			"openCollective": "https://opencollective.com/pigeonposse",
+			"instagram": "https://www.instagram.com/pigeon.posse",
+			"twitter": "https://twitter.com/pigeonposse_"
+		},
+		"app": {
+			"name": "Iconflow",
+			"repoUrl": "https://github.com/pigeonposse/iconflow",
+			"downloadUrl": "https://github.com/pigeonposse/iconflow/releases"
+		},
+		"paths": {
+			"releaseIt": ".release-it.json",
+			"releaseFile": ".utils/releaseFile.md",
+			"data": "data",
+			"dist": "dist"
+		}
+	},
+	"homepage": "https://pigeonposse.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pigeonposse/iconflow-themes"
+	},
+	"author": {
+		"name": "Angelo",
+		"email": "angelo@pigeonposse.com",
+		"url": "https://github.com/angelespejo"
+	},
+	"contributors": [
+		{
+			"name": "Alejo",
+			"email": "alejo@pigeonposse.com",
+			"url": "https://github.com/alejomalia"
+		}
+	],
+	"license": "GPT-3.0",
+	"bugs": {
+		"url": "https://github.com/pigeonposse/iconflow/issues"
+	},
+	"funding": {
+		"type": "individual",
+		"url": "https://pigeonposse.com/?popup=donate"
+	}
+}

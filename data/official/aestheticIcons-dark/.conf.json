@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "banners": [
+    	"{{theme_docs}}/banner.png"
+    ],
+    "author": {
+        "name": "PigeonPosse",
+        "web": "https://pigeonposse.com"
+    },
+    "desc": "The \"Aesthetic Dark Icons by PigeonPosse\" icon collection is an impressive selection of icons designed to personalize your Macos and give it a unique and stylish look.",
+    "desc_es_ES": "La colección de iconos \"Aesthetic Dark Icons by PigeonPosse\" es una impresionante selección de íconos diseñados para personalizar tu macOS y darle un aspecto único y elegante."
+}
