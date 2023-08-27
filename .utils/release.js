@@ -51,13 +51,13 @@ const release = async () => {
 
 		const cmd = {
 			gitAdd    : 'git add ' + answers.git_add,
-			gitCommit : 'git commit -m "' + answers.git_commit + '"',
+			gitCommit : `git commit -m "${answers.git_commit}"`,
 			push      : 'git push -u origin main',
 			releaseIt : 'pnpm exec release-it -c ' + joinPath( pkg.dir, pkg.data.extra.paths.releaseIt ),
 		}
 
-		exec( cmd.gitAdd )
-		exec( cmd.gitCommit )
+		await exec( cmd.gitAdd )
+		await exec( cmd.gitCommit )
 		
 		if ( noRelease )
 			await exec( cmd.push )
