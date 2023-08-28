@@ -15,7 +15,7 @@ export class CheckThemes extends SuperThemes {
 			banners : 'object',
 			author  : 'object',
 			desc    : 'string',
-
+			title   : 'string',
 		}
         
 		for ( const key in expectedTypes ) {
