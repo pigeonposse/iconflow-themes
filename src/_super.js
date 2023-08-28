@@ -24,6 +24,7 @@ export class SuperThemes {
 		this.ignoredPaths        = [
 			'.DS_Store',
 			'README.md',
+			'.README.md',
 		]
 		this.dataPath            = this.path.join( this.pkg.dir, this.pkg.data.extra.paths.data )
 		this.listThemesFilePath  = this.path.join( this.dataPath, this.listThemesFileName )
