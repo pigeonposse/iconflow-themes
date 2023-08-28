@@ -15,8 +15,11 @@ export class SuperThemes {
 		this.pkg                 = pkg
 		this.path                = path
 		this.fs                  = fs
+		this.existPath           = existsSync
+		this.createWriteStream   = createWriteStream
 		this.themeConfigFileName = '.conf.json'
 		this.listThemesFileName  = 'list.json'
+		this.themeAppsFolderName = 'apps'
 		this.themesFolders       = [
 			'community',
 			'official',
@@ -29,8 +32,6 @@ export class SuperThemes {
 		this.dataPath            = this.path.join( this.pkg.dir, this.pkg.data.extra.paths.data )
 		this.listThemesFilePath  = this.path.join( this.dataPath, this.listThemesFileName )
 		this.distPath            = this.path.join( this.pkg.dir, this.pkg.data.extra.paths.dist )
-		this.existPath           = existsSync
-		this.createWriteStream   = createWriteStream
 	
 	}
 

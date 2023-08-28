@@ -73,8 +73,18 @@ export class CheckThemes extends SuperThemes {
 				
 				if( stat.isDirectory( ) ){
 
-					const check = await this._checkTheme( themePath )
-					if( check )res[themesFolderName].push( themeName )
+					const themeAppsPath = this.path.join( themePath, this.themeAppsFolderName )
+					
+					if( this.existPath( themeAppsPath ) ){
+
+						const check = await this._checkTheme( themePath )
+						if( check )res[themesFolderName].push( themeName )
+					
+					}else {
+
+						throw Error( `No exists apps folder [${this.themeAppsFolderName}] in ${themePath}` )
+					
+					}
 				
 				}
 			
