@@ -32,7 +32,7 @@
 ░░░██║░░░██║░░██║███████╗██║░╚═╝░██║███████╗
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚══════╝                                                                                 
                                                 
-VERSION: 	1.0.4 
+VERSION: 	1.1.0 
 REPOSITORY: https://github.com/pigeonposse/iconflow-themes
 AUTHORS: 
 	- Angelo (https://github.com/angelespejo)
