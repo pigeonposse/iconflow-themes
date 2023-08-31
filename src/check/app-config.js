@@ -26,7 +26,7 @@ export class CheckThemeConfig extends SuperThemes {
 				throw Error( `Incorrect type for ${key}. Expected ${expectedTypes[key]}, but got ${typeof content[key]}. In path ${path}` )
 		
 		}
-		
+
 		for ( const k in content ) {
 			
 			if ( k.startsWith( 'title_' ) || k.startsWith( 'desc_' ) ) {
@@ -47,7 +47,7 @@ export class CheckThemeConfig extends SuperThemes {
 		content.free = free ? true : false
 
 		if ( free ) 
-			content.downloadUrl = this.getRepoUrl()
+			content.downloadUrl = this.getReleaseDownloadUrl( name + '.zip' )
 		else if ( !content.downloadUrl ) 
 			throw new Error( `downloadUrl does not exist in ${type} ${name}` )
 

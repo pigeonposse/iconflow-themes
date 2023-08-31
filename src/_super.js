@@ -48,7 +48,11 @@ export class SuperThemes {
 		this.distPath            = this.path.join( this.pkg.dir, this.pkg.data.extra.paths.dist )
 		
 	}
+	getReleaseDownloadUrl( name = '' ){
 
+		return this.path.join( pkg.data.repository.url, 'releases/download/latest', name )
+	
+	}
 	getRepoUrl( type = '' ){
 
 		if( type === 'raw' )
