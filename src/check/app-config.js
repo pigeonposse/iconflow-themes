@@ -45,11 +45,18 @@ export class CheckThemeConfig extends SuperThemes {
 		this._isConfigValidStructure( content, configPath )
 
 		content.free = free ? true : false
+		content.url  = free ? this.getThemeRepoUrl( name, type ) : false
+		content.type = type
+		
+		if ( free ) {
 
-		if ( free ) 
 			content.downloadUrl = this.getRepoUrl( 'release-download', name )
-		else if ( !content.downloadUrl ) 
+			content.url         = this.getThemeRepoUrl( name, type )
+		
+		}else if ( !content.downloadUrl ) 
 			throw new Error( `downloadUrl does not exist in ${type} ${name}` )
+		else if ( !content.url ) 
+			throw new Error( `url does not exist in ${type} ${name}` )
 
 		await this.fs.writeFile( 
 			configPath, 
