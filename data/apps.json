@@ -1,0 +1,580 @@
+[
+  {
+    "name": "Adobe Lightroom CC",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Photoshop CC",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Adobe Reader",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Amazon",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Dropbox",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Facebook",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Github",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Gmail",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Google Chrome",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "HBO",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "IMDb",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "LINE",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Messenger",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft  Outlook",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft 365",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Netflix",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "News",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Notion",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "OneDrive",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Photos",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Pinterest",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Reddit",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Safari",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Skype",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Slack",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Soundcloud",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Spotify",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Starbucks",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Tumblr",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Twitch",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Twitter",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "VK",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "WeChat",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Whatsapp",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "YouTube",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Zoom",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "AppStore",
+    "appType": "system",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Calendar",
+    "appType": "system",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "Camera",
+    "appType": "system",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "FaceTime",
+    "appType": "system",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Music",
+    "appType": "system",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      },
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Podcast",
+    "appType": "system",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons"
+      }
+    ]
+  },
+  {
+    "name": "GitHub",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Instagram",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Outlook",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "Skipe",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "SoundCloud",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "WhatsApp",
+    "appType": "apps",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  },
+  {
+    "name": "App Store",
+    "appType": "system",
+    "themes": [
+      {
+        "type": "official",
+        "name": "aestheticIcons-dark"
+      }
+    ]
+  }
+]

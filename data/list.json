@@ -1,7 +1,12 @@
-{
-  "community": [],
-  "official": [
-    "aestheticIcons",
-    "aestheticIcons-dark"
-  ]
-}
+[
+  {
+    "name": "aestheticIcons",
+    "type": "official",
+    "free": true
+  },
+  {
+    "name": "aestheticIcons-dark",
+    "type": "official",
+    "free": true
+  }
+]

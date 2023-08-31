@@ -1,14 +1,16 @@
 {
-    "version": 1,
-    "banners": [
-    	"{{theme_docs}}/banner.png",
-    	"{{theme_docs}}/banner-2.png"
-    ],
-    "title": "Aesthetic Icons",
-    "author": {
-        "name": "PigeonPosse",
-        "web": "https://pigeonposse.com"
-    },
-    "desc": "The \"Aesthetic Icons by PigeonPosse\" icon collection is an impressive selection of icons designed to personalize your Macos and give it a unique and stylish look.",
-    "desc_es_ES": "La colección de iconos \"Aesthetic Icons by PigeonPosse\" es una impresionante selección de íconos diseñados para personalizar tu macOS y darle un aspecto único y elegante."
+  "version": 1,
+  "banners": [
+    "{{theme_docs}}/banner.png",
+    "{{theme_docs}}/banner-2.png"
+  ],
+  "title": "Aesthetic Icons",
+  "author": {
+    "name": "PigeonPosse",
+    "web": "https://pigeonposse.com"
+  },
+  "desc": "The \"Aesthetic Icons by PigeonPosse\" icon collection is an impressive selection of icons designed to personalize your Macos and give it a unique and stylish look.",
+  "desc_es_ES": "La colección de iconos \"Aesthetic Icons by PigeonPosse\" es una impresionante selección de íconos diseñados para personalizar tu macOS y darle un aspecto único y elegante.",
+  "free": true,
+  "downloadUrl": "https:/github.com/pigeonposse/iconflow-themes/tree/main"
 }
