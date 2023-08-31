@@ -31,7 +31,7 @@ export class BuildThemes extends SuperThemes {
 
 		try{
 
-			const content    = await this.fs.readFile( this.listThemesFilePath )
+			const content    = await this.fs.readFile( this.getListThemesPath() )
 			const contentObj = JSON.parse( content )
 			
 			// renew dist path
@@ -40,21 +40,18 @@ export class BuildThemes extends SuperThemes {
                     
 			for ( const key in contentObj ) {
 
-				const array = contentObj[key]
-				for ( let index = 0; index < array.length; index++ ) {
+				const theme = contentObj[key]
 
-					const themeName = array[index]
-					if( themeName ){
+				if( theme.free ){
 
-						const themePath = this.path.join( this.dataPath, key, themeName )
-						const zipPath   = this.path.join( this.distPath, `${themeName}.zip` )
+					const zipName   = this.getZipThemeName( theme.name )
+					const themePath = this.getThemePath( theme.name, theme.type )
+					const zipPath   = this.path.join( this.distPath, zipName )
 
-						// Add zip folder
-						await this.zipDirectory( themePath, zipPath )
-					
-						console.log( `✅ Added ${themeName}.zip in: \n  ${zipPath}` )
-					
-					}
+					// Add zip folder
+					await this.zipDirectory( themePath, zipPath )
+				
+					console.log( `✅ Added ${zipName} in: \n  ${zipPath}` )
 				
 				}
 			

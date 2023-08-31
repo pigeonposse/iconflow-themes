@@ -48,20 +48,30 @@ export class SuperThemes {
 		this.distPath            = this.path.join( this.pkg.dir, this.pkg.data.extra.paths.dist )
 		
 	}
-	getReleaseDownloadUrl( name = '' ){
 
-		return this.path.join( pkg.data.repository.url, 'releases/download/latest', name )
-	
-	}
-	getRepoUrl( type = '' ){
+	getRepoUrl( type = '', name = '' ){
 
 		if( type === 'raw' )
 			return this.path.join( pkg.data.repository.url.replace( 'github', 'raw.githubusercontent' ), this.branch )
+		if( type === 'release-download' )
+			return this.path.join( pkg.data.repository.url, 'releases/latest/download', this.getZipThemeName( name ) )
 		else
 			return this.path.join( pkg.data.repository.url, 'tree', this.branch )
 	
 	}
 	
+	getThemeRepoUrl( themeName, themeType = 'official', repoType = '' ) {
+
+		return this.path.join( this.getRepoUrl( repoType ), this.pkg.data.extra.paths.data, themeType, themeName )
+	
+	}
+
+	getThemeConfigUrl( themeName, themeType = 'official' ){
+
+		return this.path.join( this.getThemeRepoUrl( themeName, themeType, 'raw' ), this.themeConfigFileName )
+	
+	}
+
 	getThemeTypePath( themeType = 'official' ){
 
 		return this.path.join( this.pkg.dir, this.pkg.data.extra.paths.data, themeType )
@@ -80,18 +90,6 @@ export class SuperThemes {
 	
 	}
 
-	getThemeRepoUrl( themeName, themeType = 'official', repoType = '' ) {
-
-		return this.path.join( this.getRepoUrl( repoType ), this.pkg.data.extra.paths.data, themeType, themeName )
-	
-	}
-
-	getThemeConfigUrl( themeName, themeType = 'official' ){
-
-		return this.path.join( this.getThemeRepoUrl( themeName, themeType, 'raw' ), this.themeConfigFileName )
-	
-	}
-
 	getThemeConfigPath( themeName, themeType = 'official' ){
 
 		return this.path.join( this.getThemePath( themeName, themeType ), this.themeConfigFileName )
@@ -101,6 +99,12 @@ export class SuperThemes {
 	getListThemesPath(){
 
 		return this.path.join( this.dataPath , this.listThemesFileName )
+	
+	}
+
+	getZipThemeName( name ){
+
+		return name + '.zip'
 	
 	}
 

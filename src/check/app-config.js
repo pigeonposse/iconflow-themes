@@ -47,7 +47,7 @@ export class CheckThemeConfig extends SuperThemes {
 		content.free = free ? true : false
 
 		if ( free ) 
-			content.downloadUrl = this.getReleaseDownloadUrl( name + '.zip' )
+			content.downloadUrl = this.getRepoUrl( 'release-download', name )
 		else if ( !content.downloadUrl ) 
 			throw new Error( `downloadUrl does not exist in ${type} ${name}` )
 

@@ -24,11 +24,11 @@ const data = {
 		'before:init' : [ 
 			'git push', 
 			'pnpm lint-fix',
+			'pnpm check',
 		],
 		'after:bump' : [
 			'pnpm auto-changelog -p',
 			'pnpm readme',
-			'pnpm check',
 		],
 		'after:git:release' : 'echo \'After git push, before github release\'',
 		'after:release'     : [
