@@ -1,0 +1,12 @@
+web:
+  iconflow-themmes:
+    name: Iconflow themes
+    desc: 🖥✨ List of mac icons to change your mac by themes and in batch. This can be possible thanks Iconflow 🐦🌈
+    type:
+      - theme
+      - api
+    status: active
+    version: 1.2.2
+    homepage: https://github.com/pigeonposse/iconflow
+    banner: https://raw.githubusercontent.com/pigeonposse/iconflow-themes/main/docs/banner.png
+    logo: https://raw.githubusercontent.com/pigeonposse/iconflow-themes/main/docs/logo.png
